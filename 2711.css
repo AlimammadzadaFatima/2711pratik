@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.bgc-img {
+    height: 100vh;
+    background-image: url(https://ggsc.s3.amazonaws.com/images/uploads/Best_education_articles_of_2019.jpg);
+   position: relative;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.row {
+    width: 100%;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+    /* border: 1px solid red; */
+  }
+  
+   a { 
+      text-decoration: none;
+     color: white;
+  }
+ .row1 { position: sticky;
+top: 0;
+padding: 5px;}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.text h3 {
+    
+     color: white;
+     font-size: 30px;
+   line-height: 64px;
+   font-weight: 800;
+   padding-top: 400px;
+   margin-left: 10px;
+  
+}
+
+.col-7 li {
+    position: relative;
+    padding: 10px 15px;
+}
+.drdw-course {
+    width: 150px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-top: 10px;
+    list-style: none;
+   
+    background-color: white;
+    visibility: hidden;
+}
+.drdw-course li a {
+   color: red;
+  
+}
+.main-home:hover .drdw-course {
+   
+    visibility: visible;
+}
+.main-about:hover .drdw-course {
+   
+    visibility: visible;
+}
+.event:hover .drdw-course {
+   
+    visibility: visible;
+}
+.course:hover .drdw-course {
+   
+    visibility: visible;
+}
+.teacher:hover .drdw-course {
+   
+    visibility: visible;
+}
+.blog:hover .drdw-course {
+   
+    visibility: visible;
+}
+.contact:hover .drdw-course {
+   
+    visibility: visible;
+}
+.about:hover .drdw-course {
+   
+    visibility: visible;
+}
